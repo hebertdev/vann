@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>VanN Dota</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body id="">
+	<header>
+		<div class="max-header">
+			<a href="">
+				<img class="logo-img" src="img/logo.png" alt="" width="100">
+			</a>
+		</div>
+	</header>
+	<div class="banner-page">
+		<div class="sub-container-banner">
+			<div style="background: ;height: 120px;text-align: center;">
+				<h1 class="title-banner">Destroza a tus enemigos</h1>
+				<h2 class="title2-banner">Es hora de subir tu MMR!</h2>
+			</div>
+		</div>
+	</div>
+	<div id="aplicacion">
+		<div class="nav-catedras" id="navcatedra">
+			<div class="sub-nav">
+				<ul class="ul-nav">
+					<!-- <li style="cursor: default;">CATEDRAS</li> -->
+					<li class="link-nav" v-on:click="changemenu ='avanzadas'"  v-bind:class="{'activado': changemenu == 'avanzadas'}">Avanzadas</li>
+
+					<li class="link-nav" v-on:click="changemenu ='intermedias'" v-bind:class="{'activado': changemenu == 'intermedias'}">Intermedias</li>
+
+					<li class="link-nav" v-on:click="changemenu ='basicas'" v-bind:class="{'activado': changemenu == 'basicas'}">Básicas</li>
+
+					<li class="link-nav" v-on:click="changemenu ='grupal'" v-bind:class="{'activado': changemenu == 'grupal'}">GRUPAL</li>
+
+				</ul>
+			</div>
+		</div>
+		
+		<!-- contenedor avanzadas --------------------------------------- -->
+
+		<div class="row galeria" v-if="changemenu=='avanzadas'">
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/EQoWAGRgf88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+
+		<!-- contenedor intermedias.---------------------------------- -->
+		<div class="row galeria" v-if="changemenu=='intermedias'">
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/0QNRmBqDtnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		
+		<!-- contenedor basicas------------------ -->
+		<div class="row galeria" v-if="changemenu=='basicas'">
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/aq__CZtBWT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<!-- contenedor grupal-..------------------------------------------- -->
+		<div class="row galeria" v-if="changemenu=='grupal'">
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="material-placeholder">
+					<iframe class="iframe-youtube materialboxed" width="" height="" src="https://www.youtube.com/embed/LO86X8zoQxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="js/main.js"></script>
+	
+	
+	
+</body>
+</html>

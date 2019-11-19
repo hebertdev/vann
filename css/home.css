@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #f4f4f4;
+}
+header{
+	background: #a54fa5;
+	width: 100%;
+	height: 50px;
+
+}
+
+.max-header{
+	width: 95%;
+	max-width: 1100px;
+	margin: auto;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.logo-img{
+	margin:10px 0;
+}
+
+.banner-page{
+	height: 350px;
+	width: 100%;
+	background-image: url(../img/Anti-Mage-1068x601.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*position: absolute;*/
+	position: relative;
+	top: -50px;
+}
+
+.banner-page:before{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: rgba(224, 106, 229, 0.54);
+}
+
+.sub-container-banner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-banner{
+	font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    line-height: 0;
+}
+
+.title2-banner{
+	font-size: 30px;
+	color: white;
+}
+
+.nav-catedras{
+	position: relative;
+	top: -50px;
+	width: 100%;
+	height: 55px;
+	background: #874999;
+}
+
+.sub-nav{
+	max-width: 1100px;
+	width: 95%;
+	margin: auto;
+}
+
+
+.stopnav{
+	position: fixed;
+	top: 0;
+	z-index: 4;
+	left: 0;
+}
+
+.ul-nav{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.ul-nav li{
+	/*background: orange;*/
+	display: block;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: arial;
+	cursor: pointer;
+	transition: all 0.2s;
+	
+}
+
+.link-nav{
+	height: 55px;
+	margin:0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10px;
+	color: white;
+	/*border-bottom: 3px solid white;*/
+	cursor: pointer;
+
+}
+
+/*.link-nav:hover{
+	background: rgba(0,0,0,0.3);
+}*/
+
+.iframe-youtube{
+	width: 100%;
+	height: 195px;
+	
+}
+
+
+
+/*estilos materialize*/
+.titulo {
+     font-size: 55px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+}
+
+.galeria{
+	max-width: 1100px;
+	width: 95%;
+	margin: auto;
+}
+.galeria img {
+     /*box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);*/
+     border-radius: 1px;
+}
+
+.materialbox-caption {
+     bottom: 30px;
+     right: 0;
+     width: 40%;
+     height: auto;
+     padding: 10px;
+     margin: auto;
+     background: #000;
+     box-shadow: 5px 5px #fff;
+     font-size: 20px;
+     color: #fff;
+     line-height: 28px;
+}
+
+.galeria .col {
+     margin-bottom: 20px;
+}
+
+
+
+/*estilos vue js */
+
+.activado{
+	background: rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 345px){
+	.link-nav{
+		height: 55px;
+		margin:0 2px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 8px;
+		color: white;
+		/*border-bottom: 3px solid white;*/
+		cursor: pointer;
+
+	}
+}
+
+@media screen and (max-width: 600px){
+     .materialbox-caption {
+          width: 90%;
+     }
+     .title-banner{
+		font-family: 'Poppins', sans-serif;
+	    font-size: 40px;
+	    font-weight: 600;
+	    color: white;
+	    line-height: 1;
+	    text-align: center;
+	}
+
+	.title2-banner{
+		font-size: 23px;
+		color: white;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 992px){
+     .materialbox-caption {
+          width: 70%;
+     }
+}
+
+/*fin de estilos materialize*/
